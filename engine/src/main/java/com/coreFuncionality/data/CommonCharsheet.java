@@ -1,4 +1,4 @@
-package com.data;
+package com.coreFuncionality.data;
 
 /**
  * Created by Dmitry on 09.07.2016.

@@ -1,6 +1,6 @@
 package com.Heresy.translator;
 
-import com.data.CommonDataParser;
+import com.coreFuncionality.data.CommonDataParser;
 import org.xml.sax.SAXException;
 
 import javax.xml.parsers.ParserConfigurationException;

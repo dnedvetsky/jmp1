@@ -1,8 +1,8 @@
-package chargenUtils;
+package com.Heresy.chargenUtils;
 
 import com.Heresy.charsheet.CharsheetHeresy;
-import com.data.Randomizer.RandomGenerator;
-import com.data.Randomizer.RandomUtils;
+import com.coreFuncionality.Randomizer.RandomGenerator;
+import com.coreFuncionality.Randomizer.RandomUtils;
 
 import java.util.ArrayList;
 

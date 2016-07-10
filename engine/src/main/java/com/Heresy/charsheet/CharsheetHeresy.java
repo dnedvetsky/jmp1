@@ -1,7 +1,7 @@
 package com.Heresy.charsheet;
 
 import com.Heresy.translator.HeresyDataProvider;
-import com.data.CommonCharsheet;
+import com.coreFuncionality.data.CommonCharsheet;
 
 import java.util.HashMap;
 
