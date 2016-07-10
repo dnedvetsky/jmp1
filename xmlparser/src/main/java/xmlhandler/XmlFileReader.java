@@ -10,10 +10,20 @@ import java.util.StringJoiner;
  * Created by Dmitry on 08.07.2016.
  */
 public class XmlFileReader {
+    /**
+     * Opens provided XML file
+     * @param path
+     * @return
+     */
     public File openXmlFIle(String path) {
         return new File(path);
     }
 
+    /**
+     * Parses XML file contents and returns string to work with
+     * @param filePath
+     * @return
+     */
     public String getXmlFileContents(String filePath) {
         BufferedReader reader = null;
         StringJoiner joiner = new StringJoiner("");

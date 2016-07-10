@@ -18,7 +18,7 @@ import java.util.HashMap;
 /**
  * Created by Dmitry on 08.07.2016.
  */
-public class CommonDataParser {
+public class CommonDataParser<K, V> {
     private XmlFileReader xmlReader = new XmlFileReader();
 
     /**
@@ -48,7 +48,7 @@ public class CommonDataParser {
      * @throws SAXException
      * @throws ParserConfigurationException
      */
-    public HashMap<String, String> convertData(String path, String nodeTag, String locatorTag, String infoTag) throws NoSuchMethodException, IOException, SAXException, ParserConfigurationException {
+    public HashMap<String, String> convertDataFromXml(String path, String nodeTag, String locatorTag, String infoTag) throws NoSuchMethodException, IOException, SAXException, ParserConfigurationException {
         HashMap<String, String> dataMap = new HashMap<String, String>();
         String data = xmlReader.getXmlFileContents(path);
         NodeList nodeList = buildDocument(data).getFirstChild().getChildNodes();
@@ -63,4 +63,8 @@ public class CommonDataParser {
         return dataMap;
     }
 
+    public String convertDataToXml(HashMap<K, V> map, String nodeTag, String locatorTag, String infoTag) {
+        //TODO: conversion of hashmaps to string goes here
+        return "";
+    }
 }

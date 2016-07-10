@@ -1,4 +1,4 @@
-package com.Heresy.translator;
+package com.Heresy.data;
 
 import com.coreFuncionality.data.CommonDataParser;
 import org.xml.sax.SAXException;
@@ -13,9 +13,14 @@ import java.util.HashMap;
 public class HeresyDataParser extends CommonDataParser {
     public static final HeresyDataParser INSTANCE = new HeresyDataParser();
 
-    public HashMap<String, String> convertData(String path) {
+    /**
+     * Converts data from XML to a suitable string format
+     * @param path
+     * @return
+     */
+    public HashMap convertData(String path) {
         try {
-            return super.convertData(path, "entity", "name", "description");
+            return super.convertDataFromXml(path, "entity", "name", "description");
         } catch (NoSuchMethodException e) {
             e.printStackTrace();
         } catch (IOException e) {

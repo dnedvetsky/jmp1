@@ -7,7 +7,7 @@ import java.io.IOException;
  * Created by Dmitry on 08.07.2016.
  */
 public class XmlManager {
-    XmlFileReader xmlReader;
+    XmlFileReader xmlReader = new XmlFileReader();
 
     public void editXmlFile(String xmlPath, String xmlData) {
         xmlReader.openXmlFIle(xmlPath);

@@ -1,6 +1,6 @@
 package com.mainFunctionality;
 
-import chargenUtils.HeresyChargen;
+import com.Heresy.chargenUtils.HeresyChargen;
 import com.Heresy.charsheet.CharsheetHeresy;
 
 /**
