@@ -32,7 +32,7 @@
                             <goal>java</goal>
                         </goals>
                         <configuration>
-                            <mainClass>com.mainFunctionality.Main</mainClass>
+                            <mainClass>com.mainfunctionality.Main</mainClass>
                         </configuration>
                     </execution>
                 </executions>

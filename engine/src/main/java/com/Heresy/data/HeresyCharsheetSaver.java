@@ -3,8 +3,8 @@ package com.Heresy.data;
 import java.util.HashMap;
 
 import com.Heresy.charsheet.CharsheetHeresy;
-import com.coreFunctionality.data.CommonCharsheetSaver;
-import com.coreFunctionality.data.CommonDataParser;
+import com.corefunctionality.data.CommonCharsheetSaver;
+import com.corefunctionality.data.CommonDataParser;
 
 import xmlhandler.XmlManager;
 

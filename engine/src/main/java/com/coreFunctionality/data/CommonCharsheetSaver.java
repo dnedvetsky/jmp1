@@ -1,9 +1,9 @@
-package com.coreFunctionality.data;
-
-import xmlhandler.XmlManager;
+package com.corefunctionality.data;
 
 import java.io.IOException;
 import java.util.HashMap;
+
+import xmlhandler.XmlManager;
 
 /**
  * Created by Dmitry on 10.07.2016.

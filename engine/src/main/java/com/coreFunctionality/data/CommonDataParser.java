@@ -1,4 +1,4 @@
-package com.coreFunctionality.data;
+package com.corefunctionality.data;
 
 import java.io.IOException;
 import java.io.StringReader;

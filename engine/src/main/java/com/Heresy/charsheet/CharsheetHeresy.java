@@ -3,7 +3,7 @@ package com.Heresy.charsheet;
 import java.util.HashMap;
 
 import com.Heresy.data.HeresyDataProvider;
-import com.coreFunctionality.data.CommonCharsheet;
+import com.corefunctionality.data.CommonCharsheet;
 
 /**
  * Created by Dmitry on 08.07.2016.

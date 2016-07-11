@@ -1,4 +1,4 @@
-package com.coreFunctionality.randomizer;
+package com.corefunctionality.randomizer;
 
 import java.util.ArrayList;
 import java.util.Random;

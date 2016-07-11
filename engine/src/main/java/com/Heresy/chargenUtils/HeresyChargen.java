@@ -1,10 +1,10 @@
-package com.Heresy.chargenUtils;
+package com.Heresy.chargenutils;
 
 import java.util.ArrayList;
 
 import com.Heresy.charsheet.CharsheetHeresy;
-import com.coreFunctionality.randomizer.RandomGenerator;
-import com.coreFunctionality.randomizer.RandomUtils;
+import com.corefunctionality.randomizer.RandomGenerator;
+import com.corefunctionality.randomizer.RandomUtils;
 
 /**
  * Created by Dmitry on 09.07.2016.

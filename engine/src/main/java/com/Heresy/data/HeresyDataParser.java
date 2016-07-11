@@ -7,7 +7,7 @@ import javax.xml.parsers.ParserConfigurationException;
 
 import org.xml.sax.SAXException;
 
-import com.coreFunctionality.data.CommonDataParser;
+import com.corefunctionality.data.CommonDataParser;
 
 /**
  * Created by Dmitry on 08.07.2016.
