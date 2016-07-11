@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?> 
+<talents>
+  <entity> 
+    <name>Name1</name>
+    <description>text1</description>
+  </entity> 
+  <entity> 
+    <name>Name2</name>
+    <description>text2</description>
+  </entity> 
+  <entity> 
+    <name>Name3</name>
+    <description>text3</description>
+  </entity>
+</talents>

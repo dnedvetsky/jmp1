@@ -1,4 +1,4 @@
-package com.coreFuncionality.data;
+package com.coreFunctionality.data;
 
 import xmlhandler.XmlManager;
 

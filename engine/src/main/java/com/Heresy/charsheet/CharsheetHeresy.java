@@ -1,9 +1,9 @@
 package com.Heresy.charsheet;
 
-import com.Heresy.data.HeresyDataProvider;
-import com.coreFuncionality.data.CommonCharsheet;
-
 import java.util.HashMap;
+
+import com.Heresy.data.HeresyDataProvider;
+import com.coreFunctionality.data.CommonCharsheet;
 
 /**
  * Created by Dmitry on 08.07.2016.
@@ -13,10 +13,10 @@ public class CharsheetHeresy extends CommonCharsheet {
 
     /**
      * Constructs with specified values
-     * @param str
-     * @param wis
-     * @param dex
-     * @param con
+     * @param str - attributes
+     * @param wis - attributes
+     * @param dex - attributes
+     * @param con - attributes
      */
     public CharsheetHeresy(int str, int wis, int dex, int con) {
         super(str, wis, dex, con);
@@ -52,7 +52,7 @@ public class CharsheetHeresy extends CommonCharsheet {
 
     /**
      * Method is used to add talent from list to a selected character
-     * @param name
+     * @param name - name to add a talent to charsheet
      */
     public void addTalent(String name) {
         localTalents.put(name, HeresyDataProvider.INSTANCE.getTalent(name));

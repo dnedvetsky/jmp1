@@ -1,11 +1,13 @@
 package com.Heresy.data;
 
-import com.coreFuncionality.data.CommonDataParser;
-import org.xml.sax.SAXException;
-
-import javax.xml.parsers.ParserConfigurationException;
 import java.io.IOException;
 import java.util.HashMap;
+
+import javax.xml.parsers.ParserConfigurationException;
+
+import org.xml.sax.SAXException;
+
+import com.coreFunctionality.data.CommonDataParser;
 
 /**
  * Created by Dmitry on 08.07.2016.
@@ -15,7 +17,7 @@ public class HeresyDataParser extends CommonDataParser {
 
     /**
      * Converts data from XML to a suitable string format
-     * @param path
+     * @param path - path to file
      * @return
      */
     public HashMap convertData(String path) {

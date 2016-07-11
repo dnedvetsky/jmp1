@@ -1,11 +1,12 @@
 package com.Heresy.data;
 
-import com.Heresy.charsheet.CharsheetHeresy;
-import com.coreFuncionality.data.CommonCharsheetSaver;
-import com.coreFuncionality.data.CommonDataParser;
-import xmlhandler.XmlManager;
-
 import java.util.HashMap;
+
+import com.Heresy.charsheet.CharsheetHeresy;
+import com.coreFunctionality.data.CommonCharsheetSaver;
+import com.coreFunctionality.data.CommonDataParser;
+
+import xmlhandler.XmlManager;
 
 /**
  * Created by Dmitry on 10.07.2016.
@@ -17,7 +18,7 @@ public class HeresyCharsheetSaver extends CommonCharsheetSaver {
 
     /**
      * Saves charasheet into xml format - with attributes list and description
-     * @param charsheetHeresy
+     * @param charsheetHeresy - a character sheet for to parse for data
      */
     public void saveHeresyCharsheet(CharsheetHeresy charsheetHeresy) {
         HashMap<String, Integer> charsheetAttributes = new HashMap<String, Integer>();
@@ -28,7 +29,7 @@ public class HeresyCharsheetSaver extends CommonCharsheetSaver {
 
     /**
      * Parses character talents when heresy charsheet provided
-     * @param charsheetHeresy
+     * @param charsheetHeresy - a character sheet for to parse for data
      * @return
      */
     private HashMap<String, String> parseCharacterTalents(CharsheetHeresy charsheetHeresy) {

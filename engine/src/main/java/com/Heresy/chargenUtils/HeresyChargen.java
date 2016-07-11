@@ -1,10 +1,10 @@
 package com.Heresy.chargenUtils;
 
-import com.Heresy.charsheet.CharsheetHeresy;
-import com.coreFuncionality.Randomizer.RandomGenerator;
-import com.coreFuncionality.Randomizer.RandomUtils;
-
 import java.util.ArrayList;
+
+import com.Heresy.charsheet.CharsheetHeresy;
+import com.coreFunctionality.randomizer.RandomGenerator;
+import com.coreFunctionality.randomizer.RandomUtils;
 
 /**
  * Created by Dmitry on 09.07.2016.
@@ -35,7 +35,7 @@ public class HeresyChargen {
 
     /**
      * Multiplies all values in list
-     * @param values
+     * @param values - all values in ArrayList integer
      * @return
      */
     private int multiplyGeneratedValues(ArrayList<Integer> values) {

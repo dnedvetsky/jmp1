@@ -12,16 +12,16 @@ import java.util.StringJoiner;
 public class XmlFileReader {
     /**
      * Opens provided XML file
-     * @param path
+     * @param filePath - path to xml file
      * @return
      */
-    public File openXmlFIle(String path) {
-        return new File(path);
+    public File openXmlFIle(String filePath) {
+        return new File(filePath);
     }
 
     /**
      * Parses XML file contents and returns string to work with
-     * @param filePath
+     * @param filePath - path to xmlFile
      * @return
      */
     public String getXmlFileContents(String filePath) {
