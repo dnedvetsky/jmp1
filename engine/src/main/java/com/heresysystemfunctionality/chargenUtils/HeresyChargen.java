@@ -1,10 +1,10 @@
-package com.Heresy.chargenutils;
+package com.heresysystemfunctionality.chargenutils;
 
-import java.util.ArrayList;
-
-import com.Heresy.charsheet.CharsheetHeresy;
 import com.corefunctionality.randomizer.RandomGenerator;
 import com.corefunctionality.randomizer.RandomUtils;
+import com.heresysystemfunctionality.charsheet.CharsheetHeresy;
+
+import java.util.ArrayList;
 
 /**
  * Created by Dmitry on 09.07.2016.
@@ -25,7 +25,7 @@ public class HeresyChargen {
     }
 
     /**
-     * Generate statistics for Heresy character; According to math - remove lowest value
+     * Generate statistics for heresysystemfunctionality character; According to math - remove lowest value
      * @return
      */
     private int generateStatistic() {

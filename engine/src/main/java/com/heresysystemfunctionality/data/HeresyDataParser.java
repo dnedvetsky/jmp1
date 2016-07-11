@@ -1,13 +1,11 @@
-package com.Heresy.data;
-
-import java.io.IOException;
-import java.util.HashMap;
-
-import javax.xml.parsers.ParserConfigurationException;
-
-import org.xml.sax.SAXException;
+package com.heresysystemfunctionality.data;
 
 import com.corefunctionality.data.CommonDataParser;
+import org.xml.sax.SAXException;
+
+import javax.xml.parsers.ParserConfigurationException;
+import java.io.IOException;
+import java.util.HashMap;
 
 /**
  * Created by Dmitry on 08.07.2016.

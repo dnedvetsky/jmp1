@@ -1,9 +1,9 @@
-package com.Heresy.charsheet;
+package com.heresysystemfunctionality.charsheet;
+
+import com.corefunctionality.data.CommonCharsheet;
+import com.heresysystemfunctionality.data.HeresyDataProvider;
 
 import java.util.HashMap;
-
-import com.Heresy.data.HeresyDataProvider;
-import com.corefunctionality.data.CommonCharsheet;
 
 /**
  * Created by Dmitry on 08.07.2016.

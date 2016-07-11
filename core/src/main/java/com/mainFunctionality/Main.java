@@ -1,7 +1,8 @@
 package com.mainfunctionality;
 
-import com.Heresy.chargenutils.HeresyChargen;
-import com.Heresy.charsheet.CharsheetHeresy;
+import com.heresysystemfunctionality.chargenutils.HeresyChargen;
+import com.heresysystemfunctionality.charsheet.CharsheetHeresy;
+import com.tools.PrintCharsheet;
 
 /**
  * Created by Dmitry on 09.07.2016.
@@ -13,11 +14,8 @@ public class Main {
         charsheet1.addTalent("Name1");
         CharsheetHeresy charsheet2 = chargen.generateCharacter();
         charsheet2.addTalent("Name2");
-        System.out.println(charsheet1.getAttributes().toString());
-        System.out.println(charsheet1.getTalents().toString());
-        System.out.println("-=================================-");
-        System.out.println(charsheet2.getAttributes().toString());
-        System.out.println(charsheet2.getTalents().toString());
+        PrintCharsheet.printHeresyCharsheet(charsheet1);
+        PrintCharsheet.printHeresyCharsheet(charsheet2);
     }
 }
 

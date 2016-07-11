@@ -1,12 +1,11 @@
-package com.Heresy.data;
+package com.heresysystemfunctionality.data;
 
-import java.util.HashMap;
-
-import com.Heresy.charsheet.CharsheetHeresy;
 import com.corefunctionality.data.CommonCharsheetSaver;
 import com.corefunctionality.data.CommonDataParser;
-
+import com.heresysystemfunctionality.charsheet.CharsheetHeresy;
 import xmlhandler.XmlManager;
+
+import java.util.HashMap;
 
 /**
  * Created by Dmitry on 10.07.2016.
